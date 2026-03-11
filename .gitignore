@@ -1,0 +1,31 @@
+# API keys and credentials - never commit these
+.env
+.env.local
+.env.*
+!.env.example
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Data files (keep templates, not actual data)
+*.csv
+*.json
+!package.json
+!package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+*.zip
+
+# Context directory
+.context/
