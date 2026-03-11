@@ -94,12 +94,13 @@ _No campaigns logged yet. After each weekly batch, log: how many prospects conta
 
 ### 1. ICP Refinement (from Closed-Won Analysis)
 
-1. List your last [5–10] closed deals
-2. For each, note: company size, industry, how they found you, buying signal, objection, deal size, time to close
-3. Identify the top 3 patterns across wins
-4. Update the ICP definition above to match reality, not assumptions
-5. Identify 1–2 "anti-patterns" (prospects that wasted time but didn't buy) and add to exclusion rules
-6. Output: updated ICP section + notes on what changed and why
+1. Export your CRM closed-won deals to CSV and drop it in `./data/`
+2. Ask Claude Code to analyze: "Read my closed-won deals and identify the top 3 common traits across wins"
+3. For each deal, note: company size, industry, how they found you, buying signal, objection, deal size, time to close
+4. Identify the top 3 patterns across wins
+5. Update the ICP definition above to match reality, not assumptions
+6. Identify 1–2 "anti-patterns" (prospects that wasted time but didn't buy) and add to exclusion rules
+7. Output: updated ICP section + notes on what changed and why
 
 ### 2. Weekly Prospecting Routine
 

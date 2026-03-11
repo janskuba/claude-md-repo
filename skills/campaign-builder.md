@@ -55,7 +55,10 @@ Build a complete micro-campaign end-to-end: define the segment, build the prospe
 ### Phase 4: Campaign Package
 
 1. Format prospect data for your sending platform's import template
-2. Map columns to platform fields (first_name, email, company, custom variables)
+2. Map columns to platform fields. Common formats:
+   - **Instantly:** `email, first_name, last_name, company_name, custom1, custom2, ...` (custom fields map to `{{custom1}}` variables in sequences)
+   - **Lemlist:** `email, firstName, lastName, companyName, icebreaker, ...` (icebreaker field maps to `{{icebreaker}}` variable)
+   - **Smartlead:** `email, first_name, last_name, company, custom1, custom2, ...` (similar to Instantly)
 3. Create the sequence in platform format with timing rules
 4. Generate a campaign summary: segment, volume, messaging angle, sequence outline, expected send dates
 5. Output all files to campaign folder

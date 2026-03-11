@@ -70,7 +70,7 @@ You operate with a signal-driven approach — every prospect gets contacted beca
 
 | Tool | Purpose | Connection |
 |------|---------|------------|
-| Apollo | Prospect data + enrichment | API — key in `APOLLO_API_KEY` |
+| Apollo | Prospect data + enrichment | MCP Server / API — key in `APOLLO_API_KEY` |
 | Clay | Enrichment workflows + waterfall | API — key in `CLAY_API_KEY` |
 | Instantly | Email sending (5 warmed mailboxes) | API — key in `INSTANTLY_API_KEY` |
 | HubSpot | CRM | MCP Server |
@@ -96,9 +96,9 @@ You operate with a signal-driven approach — every prospect gets contacted beca
 
 ## Campaign History
 
-### Campaign: Series B Hiring Signal — March 2024
+### Campaign: Series B Hiring Signal — March 2026
 
-- **Date launched:** 2024-03-04
+- **Date launched:** 2026-03-04
 - **Segment:** Series B+ SaaS, 50+ engineers, hiring Platform/Infra Engineers, US
 - **ICP tier targeted:** Tier 1
 - **Volume:** 85 prospects

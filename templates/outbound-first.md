@@ -76,7 +76,7 @@ You operate with a signal-driven approach — never send generic blasts. Every p
 
 | Tool | Purpose | Connection |
 |------|---------|------------|
-| [e.g., Apollo] | Prospect data + enrichment | API — key in `APOLLO_API_KEY` |
+| [e.g., Apollo] | Prospect data + enrichment | MCP Server / API — key in `APOLLO_API_KEY` |
 | [e.g., Clay] | Enrichment workflows | API — key in `CLAY_API_KEY` |
 | [e.g., Instantly] | Email sending | API — key in `INSTANTLY_API_KEY` |
 | [e.g., HubSpot] | CRM | MCP Server / API |
@@ -147,3 +147,4 @@ _No campaigns logged yet. After your first campaign, add an entry here with: seg
 5. Send LinkedIn connection requests on Day 1 for Tier 1 prospects
 6. Monitor daily: check for replies, bounces, and unsubscribes
 7. After campaign completes: log results in Campaign History section above
+8. Use `/loop 4h /signal-monitor` to continuously scan for new signals while your session is active — new matches get added to your next campaign automatically

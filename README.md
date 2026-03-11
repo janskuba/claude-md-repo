@@ -1,6 +1,8 @@
 # claude-md-playbook
 
-Ready-to-use CLAUDE.md templates that make Claude Code actually work for GTM teams.
+The context layer that turns Claude Code from a chatbot into a GTM engine.
+
+Built from 50+ real client engagements at [ColdIQ](https://coldiq.com), the #1 ranked Clay Partner. These aren't theoretical templates — they're the exact context structures that produce results at scale. This is the first CLAUDE.md playbook built specifically for GTM teams.
 
 ## What is a CLAUDE.md?
 
@@ -17,20 +19,22 @@ claude-md-playbook/
 │   ├── plg-growth.md
 │   ├── abm-enterprise.md
 │   ├── founder-led-sales.md
-│   └── agency-client.md
+│   └── agency-client.md      ← Unique: built for agencies managing client outbound
 ├── modules/            # Plug-in sections you mix and match
 │   ├── icp-definition.md
 │   ├── signal-map.md
 │   ├── copy-frameworks.md
 │   ├── tech-stack-config.md
 │   ├── exclusion-rules.md
-│   └── campaign-history.md
+│   ├── campaign-history.md
+│   └── data-hygiene.md
 ├── skills/             # Task-specific instruction files
 │   ├── lead-enrichment.md
 │   ├── personalization-writer.md
 │   ├── signal-monitor.md
 │   ├── campaign-builder.md
-│   └── pipeline-reviewer.md
+│   ├── pipeline-reviewer.md
+│   └── reply-classifier.md
 ├── examples/           # Fully filled-in examples
 │   ├── example-outbound-saas.md
 │   └── example-abm-enterprise.md
@@ -39,17 +43,17 @@ claude-md-playbook/
 
 ## The 3 Layers
 
-**Templates** — Complete CLAUDE.md starter files organized by GTM motion (outbound, PLG, ABM, founder-led, agency). Copy one into your project folder, fill in the placeholders, and you're running.
+**Templates** — Complete CLAUDE.md starter files organized by GTM motion (outbound, PLG, ABM, founder-led, agency). Copy one into your project folder, fill in the placeholders, and you're running. If you're an agency managing outbound for clients, the `agency-client.md` template is purpose-built for multi-client management with approval workflows and reporting — you won't find this anywhere else.
 
-**Modules** — Standalone sections you can plug into any CLAUDE.md. Need a better ICP definition? Grab `modules/icp-definition.md`. Want to add signal monitoring? Drop in `modules/signal-map.md`. Mix and match to build exactly what you need.
+**Modules** — Standalone sections you can plug into any CLAUDE.md. Need a better ICP definition? Grab `modules/icp-definition.md`. Want to add signal monitoring? Drop in `modules/signal-map.md`. Messy CRM data? Use `modules/data-hygiene.md`. Mix and match to build exactly what you need.
 
-**Skills** — Task-specific instruction files that teach Claude Code how to perform individual GTM tasks (enrich leads, write personalized copy, build campaigns). Place them in your project's `/skills` folder or reference them directly.
+**Skills** — Task-specific instruction files that teach Claude Code how to perform individual GTM tasks (enrich leads, write personalized copy, build campaigns, classify replies). Place them in your project's `/skills` folder or reference them directly.
 
 ## Quick Start
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/coldiq/claude-md-playbook.git
+   git clone https://github.com/janskuba/claude-md-playbook.git
    ```
 2. Copy the template closest to your GTM motion into your project as `CLAUDE.md`:
    ```bash
@@ -57,10 +61,6 @@ claude-md-playbook/
    ```
 3. Replace the `[PLACEHOLDER]` sections with your real data (ICP, tech stack, messaging, etc.)
 4. Open Claude Code in that folder — done.
-
-## How ColdIQ Uses This
-
-We run this system across 50+ client engagements. These templates are extracted from what actually works at scale — not theory, not best practices blog posts, but the exact context structures that produce results. Learn more at [coldiq.com](https://coldiq.com).
 
 ---
 
