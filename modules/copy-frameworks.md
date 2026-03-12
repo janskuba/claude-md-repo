@@ -1,6 +1,6 @@
 # Copy Frameworks
 
-<!-- This module defines your messaging templates and tone rules. Paste it into the Copy Frameworks section of any template. Good outbound copy is short, specific, and earns the next step — not the deal. Every template here follows that principle. -->
+<!-- This module defines your messaging templates and tone rules. Paste it into the Copy Frameworks section of any template. Good outbound copy is short, specific, and earns the next step - not the deal. Every template here follows that principle. -->
 
 ## Tone Rules
 
@@ -12,36 +12,36 @@
 
 ## First Touch Templates
 
-### Cold Email — Signal-Based
+### Cold Email - Signal-Based
 
 ```
-Subject: [SIGNAL_REFERENCE] — [SHORT_HOOK]
+Subject: [SIGNAL_REFERENCE] - [SHORT_HOOK]
 
 [FIRST_NAME],
 
-Saw [SPECIFIC_SIGNAL — e.g., you're hiring 3 SDRs / just raised your Series B / posted about X].
+Saw [SPECIFIC_SIGNAL - e.g., you're hiring 3 SDRs / just raised your Series B / posted about X].
 
-[ONE_SENTENCE connecting signal to your product's value — what changes for them].
+[ONE_SENTENCE connecting signal to your product's value - what changes for them].
 
-[SOCIAL_PROOF — e.g., "We helped [SIMILAR_COMPANY] do X in Y timeframe."]
+[SOCIAL_PROOF - e.g., "We helped [SIMILAR_COMPANY] do X in Y timeframe."]
 
-[SOFT_CTA — e.g., "Worth a quick look?"]
+[SOFT_CTA - e.g., "Worth a quick look?"]
 
 [YOUR_NAME]
 ```
 
-### Cold Email — Problem-Led
+### Cold Email - Problem-Led
 
 ```
 Subject: [PROBLEM_STATEMENT]
 
 [FIRST_NAME],
 
-Most [PERSONA_TITLE]s at [COMPANY_STAGE] companies [DESCRIBE_COMMON_PROBLEM — e.g., "spend 10+ hours/week manually building prospect lists"].
+Most [PERSONA_TITLE]s at [COMPANY_STAGE] companies [DESCRIBE_COMMON_PROBLEM - e.g., "spend 10+ hours/week manually building prospect lists"].
 
 [ONE_SENTENCE about how your product solves this differently].
 
-[PROOF_POINT — e.g., metric, customer result, or case study reference].
+[PROOF_POINT - e.g., metric, customer result, or case study reference].
 
 [SOFT_CTA]
 
@@ -51,7 +51,7 @@ Most [PERSONA_TITLE]s at [COMPANY_STAGE] companies [DESCRIBE_COMMON_PROBLEM — 
 ### LinkedIn Connection Request
 
 ```
-[FIRST_NAME] — [BRIEF_CONTEXT for connecting, e.g., "saw your talk at SaaStr" / "we're both in the B2B outbound space"]. Would be great to connect.
+[FIRST_NAME] - [BRIEF_CONTEXT for connecting, e.g., "saw your talk at SaaStr" / "we're both in the B2B outbound space"]. Would be great to connect.
 ```
 
 ### LinkedIn DM (Post-Connection)
@@ -59,11 +59,11 @@ Most [PERSONA_TITLE]s at [COMPANY_STAGE] companies [DESCRIBE_COMMON_PROBLEM — 
 ```
 Thanks for connecting, [FIRST_NAME].
 
-[ONE_SENTENCE referencing something specific — their recent post, company news, mutual connection].
+[ONE_SENTENCE referencing something specific - their recent post, company news, mutual connection].
 
-[BRIDGE to your product — what you help companies like theirs do].
+[BRIDGE to your product - what you help companies like theirs do].
 
-[SOFT_CTA — e.g., "Happy to share how if useful."]
+[SOFT_CTA - e.g., "Happy to share how if useful."]
 ```
 
 ## Follow-Up Templates
@@ -75,9 +75,9 @@ Subject: Re: [ORIGINAL_SUBJECT]
 
 [FIRST_NAME],
 
-[SHARE_SOMETHING_USEFUL — e.g., a relevant article, case study, data point, or industry insight]. Thought this might be relevant given [CONTEXT_FROM_FIRST_EMAIL].
+[SHARE_SOMETHING_USEFUL - e.g., a relevant article, case study, data point, or industry insight]. Thought this might be relevant given [CONTEXT_FROM_FIRST_EMAIL].
 
-[RESTATE_CTA — softer than first touch]
+[RESTATE_CTA - softer than first touch]
 
 [YOUR_NAME]
 ```
@@ -89,7 +89,7 @@ Subject: Re: [ORIGINAL_SUBJECT]
 
 [FIRST_NAME],
 
-[SPECIFIC_CUSTOMER_RESULT — e.g., "[COMPANY_NAME] was dealing with the same [PROBLEM]. After [TIME_PERIOD], they [RESULT — e.g., increased reply rates by 3x / cut list building time by 80%]."]
+[SPECIFIC_CUSTOMER_RESULT - e.g., "[COMPANY_NAME] was dealing with the same [PROBLEM]. After [TIME_PERIOD], they [RESULT - e.g., increased reply rates by 3x / cut list building time by 80%]."]
 
 [SOFT_CTA]
 
@@ -107,7 +107,7 @@ Not trying to clog your inbox. If [YOUR_PRODUCT_CATEGORY] isn't a priority right
 
 If it is, happy to share how [SHORT_VALUE_PROP].
 
-Either way — [GENUINE_CLOSER, e.g., "good luck with the Series B" / "hope the SDR hiring goes well"].
+Either way - [GENUINE_CLOSER, e.g., "good luck with the Series B" / "hope the SDR hiring goes well"].
 
 [YOUR_NAME]
 ```
@@ -127,7 +127,7 @@ Great to hear, [FIRST_NAME]. How about [SPECIFIC_DAY/TIME]? Happy to keep it to 
 Action: Acknowledge, add value, set a future anchor.
 
 ```
-Totally get it, [FIRST_NAME]. [OPTIONAL: share one quick resource]. Happy to circle back in [TIMEFRAME — e.g., next quarter]. When would make sense?
+Totally get it, [FIRST_NAME]. [OPTIONAL: share one quick resource]. Happy to circle back in [TIMEFRAME - e.g., next quarter]. When would make sense?
 ```
 
 ### Objection: "We already use [COMPETITOR]"
@@ -135,7 +135,7 @@ Totally get it, [FIRST_NAME]. [OPTIONAL: share one quick resource]. Happy to cir
 Action: Don't bash the competitor. Differentiate on one specific dimension.
 
 ```
-Makes sense — [COMPETITOR] is solid for [WHAT_THEY'RE_KNOWN_FOR]. Where we're different is [ONE_SPECIFIC_DIFFERENTIATOR]. Worth a quick comparison?
+Makes sense - [COMPETITOR] is solid for [WHAT_THEY'RE_KNOWN_FOR]. Where we're different is [ONE_SPECIFIC_DIFFERENTIATOR]. Worth a quick comparison?
 ```
 
 ### Objection: "Send me more info"
@@ -143,7 +143,7 @@ Makes sense — [COMPETITOR] is solid for [WHAT_THEY'RE_KNOWN_FOR]. Where we're 
 Action: Send something short and specific, with a clear next step.
 
 ```
-Sure thing. Here's [SPECIFIC_RESOURCE — one-pager, case study, 2-min video]. Happy to walk through anything live if helpful — does [DAY] work?
+Sure thing. Here's [SPECIFIC_RESOURCE - one-pager, case study, 2-min video]. Happy to walk through anything live if helpful - does [DAY] work?
 ```
 
 ## Personalization Variables
@@ -172,16 +172,16 @@ Subject: Your Snowflake migration
 
 Alex,
 
-Saw your team just moved to Snowflake — congrats. Most data teams we talk to hit a wall with pipeline observability about 3 months in.
+Saw your team just moved to Snowflake - congrats. Most data teams we talk to hit a wall with pipeline observability about 3 months in.
 
 DataCo cut their pipeline debugging time by 70% after switching from manual monitoring. Worth a quick look?
 
-— Sarah
+- Sarah
 ```
 
 ### Example 2: HR Tech Company
 
-**Tone:** Warm, professional, empathetic. HR leaders deal with people problems — mirror that.
+**Tone:** Warm, professional, empathetic. HR leaders deal with people problems - mirror that.
 
 **First touch:**
 ```
@@ -189,9 +189,9 @@ Subject: Scaling your People team
 
 Jordan,
 
-Noticed you're hiring 4 HR Business Partners — exciting growth. At that stage, most People teams start drowning in manual processes that worked fine at 200 employees but break at 500.
+Noticed you're hiring 4 HR Business Partners - exciting growth. At that stage, most People teams start drowning in manual processes that worked fine at 200 employees but break at 500.
 
 Acme Corp automated their entire onboarding workflow and saved 15 hours/week. Relevant to share?
 
-— Mike
+- Mike
 ```

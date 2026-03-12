@@ -27,8 +27,8 @@ Read incoming reply emails from outbound campaigns and classify each by intent. 
 | **Objection** | Raised a concern but didn't shut the door (budget, timing, competitor, authority) | Within 4 hours |
 | **Not now** | Timing isn't right but didn't say never ("circle back later", "not a priority right now") | Acknowledge + set reminder |
 | **Referral** | Pointed you to someone else ("talk to my colleague", "reach out to X") | Within 2 hours |
-| **Unsubscribe** | Wants to be removed ("remove me", "stop emailing", "unsubscribe") | Immediate — remove and confirm |
-| **Out of office** | Auto-reply, OOO message | No action — re-engage after return date |
+| **Unsubscribe** | Wants to be removed ("remove me", "stop emailing", "unsubscribe") | Immediate - remove and confirm |
+| **Out of office** | Auto-reply, OOO message | No action - re-engage after return date |
 | **Not relevant** | Wrong person, wrong company, spam, bounce notification | Archive |
 
 2. **For each classified reply, generate:**
@@ -71,7 +71,7 @@ Save to: `./data/replies/classified_[DATE].csv`
 
 - **Interested + Referral replies:** Route to Slack `#replies` channel within 1 minute for fastest response. Include: sender name, company, reply snippet, suggested response, and CRM action.
 - **Objection replies:** Route to Slack `#replies` with suggested rebuttal from copy frameworks.
-- **Unsubscribe:** Auto-log in Google Sheets exclusion tracker (or CRM) — no Slack notification needed.
+- **Unsubscribe:** Auto-log in Google Sheets exclusion tracker (or CRM) - no Slack notification needed.
 - **Gmail integration:** If using Gmail MCP connector, Claude Code can draft response emails directly in Gmail based on the suggested responses above. Review before sending.
 
 Configure Slack webhook: set `SLACK_WEBHOOK_URL` in your `.env` file.
@@ -89,12 +89,12 @@ Output:
 Total replies: 24
 - Interested: 5 → respond ASAP
   - Sarah Kim (DataFlow): "This looks relevant. Can you send a one-pager?"
-    → Suggested: "Sure thing, Sarah. Here's our one-pager [LINK]. Happy to walk through it live — does Thursday 2pm work?"
+    → Suggested: "Sure thing, Sarah. Here's our one-pager [LINK]. Happy to walk through it live - does Thursday 2pm work?"
     → CRM: Move to "Engaged", set task for Thursday
 
 - Objection: 3
   - Mike Chen (Acme): "We just signed a 2-year deal with [COMPETITOR]."
-    → Suggested: "Makes sense — [COMPETITOR] is solid for X. Where we're different is Y. Worth keeping in touch for when the renewal comes up?"
+    → Suggested: "Makes sense - [COMPETITOR] is solid for X. Where we're different is Y. Worth keeping in touch for when the renewal comes up?"
     → CRM: Set "Competitor" field, set reminder 18 months out
 
 - Not now: 6

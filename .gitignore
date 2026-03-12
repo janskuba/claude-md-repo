@@ -1,4 +1,4 @@
-# API keys and credentials — never commit these
+# API keys and credentials - never commit these
 .env
 .env.local
 .env.*

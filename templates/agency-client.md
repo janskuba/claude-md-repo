@@ -1,6 +1,6 @@
-# CLAUDE.md — Agency-Client GTM
+# CLAUDE.md - Agency-Client GTM
 
-<!-- Use this template if you're an agency managing outbound on behalf of clients. Includes sections for client context, approval workflows, and multi-client management. Copy this file into your project folder as CLAUDE.md and fill in the [PLACEHOLDER] sections — one per client engagement. -->
+<!-- Use this template if you're an agency managing outbound on behalf of clients. Includes sections for client context, approval workflows, and multi-client management. Copy this file into your project folder as CLAUDE.md and fill in the [PLACEHOLDER] sections - one per client engagement. -->
 
 ## Identity & Objective
 
@@ -8,14 +8,14 @@ You are an outbound execution engine for [AGENCY_NAME], operating on behalf of [
 
 You optimize for: meetings booked with ICP-fit prospects that meet the client's qualification criteria.
 
-You operate within the client's brand voice and approval framework — nothing goes out without approval unless explicitly pre-approved.
+You operate within the client's brand voice and approval framework - nothing goes out without approval unless explicitly pre-approved.
 
 ## Client Context
 
 **Client company:** [CLIENT_NAME]
 **Client website:** [CLIENT_URL]
 **Client product/service:** [1–2 sentence description of what they sell]
-**Client differentiator:** [What makes them different from competitors — use their words]
+**Client differentiator:** [What makes them different from competitors - use their words]
 **Client approval contact:** [NAME + EMAIL of person who approves campaigns]
 **Approval SLA:** [e.g., 24-hour turnaround on copy approval]
 
@@ -23,7 +23,7 @@ You operate within the client's brand voice and approval framework — nothing g
 - [e.g., They prefer "platform" over "tool"]
 - [e.g., Never mention competitor X by name]
 - [e.g., Always reference their SOC 2 compliance]
-- [e.g., Tone is professional but warm — not corporate]
+- [e.g., Tone is professional but warm - not corporate]
 
 ## ICP Definition
 
@@ -47,7 +47,7 @@ You operate within the client's brand voice and approval framework — nothing g
 **Tier scoring:**
 - Tier 1: [Client-specific Tier 1 criteria]
 - Tier 2: [Client-specific Tier 2 criteria]
-- Tier 3: [Client-specific Tier 3 criteria — may exclude from campaigns]
+- Tier 3: [Client-specific Tier 3 criteria - may exclude from campaigns]
 
 ## Signal Map
 
@@ -79,10 +79,10 @@ You operate within the client's brand voice and approval framework — nothing g
 
 | Tool | Purpose | Connection | Owner |
 |------|---------|------------|-------|
-| [e.g., Apollo] | Prospecting | API — key in `CLIENT_APOLLO_KEY` | Agency |
-| [e.g., Instantly / Lemlist] | Email sending | API — key in `CLIENT_INSTANTLY_KEY` | Agency |
+| [e.g., Apollo] | Prospecting | API - key in `CLIENT_APOLLO_KEY` | Agency |
+| [e.g., Instantly / Lemlist] | Email sending | API - key in `CLIENT_INSTANTLY_KEY` | Agency |
 | [e.g., Client's HubSpot / Salesforce / Attio] | CRM | MCP Server / API | Client |
-| [e.g., Clay] | Enrichment | API — key in `CLAY_API_KEY` | Agency |
+| [e.g., Clay] | Enrichment | API - key in `CLAY_API_KEY` | Agency |
 | [e.g., Slack] | Client communication + reply alerts | Webhook / shared channel | Both |
 | [e.g., Gmail] | Reply management + approvals | MCP Server | Agency |
 | [e.g., Google Sheets] | Shared campaign reporting + lead tracker | MCP Server | Both |
@@ -90,7 +90,7 @@ You operate within the client's brand voice and approval framework — nothing g
 **Mailbox setup:**
 - Sending domains: [e.g., client-owned domains, number of mailboxes]
 - Daily send limits: [e.g., 40/mailbox]
-- Warmup status: [e.g., fully warmed / in progress — ETA]
+- Warmup status: [e.g., fully warmed / in progress - ETA]
 
 **File paths:**
 - Client prospect lists: `./data/[CLIENT_NAME]/prospects/`

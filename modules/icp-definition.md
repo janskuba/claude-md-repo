@@ -1,6 +1,6 @@
 # ICP Definition
 
-<!-- This module defines your Ideal Customer Profile. Paste it into the ICP section of any template. A precise ICP is the single biggest lever for outbound performance — everything downstream (signals, copy, targeting) depends on this being right. -->
+<!-- This module defines your Ideal Customer Profile. Paste it into the ICP section of any template. A precise ICP is the single biggest lever for outbound performance - everything downstream (signals, copy, targeting) depends on this being right. -->
 
 ## Company Criteria
 
@@ -31,19 +31,19 @@
 
 ## Scoring Rubric
 
-**Tier 1 (Perfect fit — prioritize immediately):**
+**Tier 1 (Perfect fit - prioritize immediately):**
 - Matches 4+ company criteria
 - Primary persona identified
 - At least one active buying signal
 - No negative indicators
 
-**Tier 2 (Good fit — include in campaigns):**
+**Tier 2 (Good fit - include in campaigns):**
 - Matches 3+ company criteria
 - Secondary persona identified
 - May have buying signals
 - No critical negative indicators
 
-**Tier 3 (Marginal fit — deprioritize or exclude):**
+**Tier 3 (Marginal fit - deprioritize or exclude):**
 - Matches fewer than 3 company criteria
 - Only influencer-level contacts found
 - No buying signals detected

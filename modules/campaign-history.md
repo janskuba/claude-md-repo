@@ -1,10 +1,10 @@
 # Campaign History
 
-<!-- This module is your campaign log. Paste it into the Campaign History section of any template. This is what makes the system compound — Claude Code reads past results to improve future campaigns. Start empty, fill in after each campaign. -->
+<!-- This module is your campaign log. Paste it into the Campaign History section of any template. This is what makes the system compound - Claude Code reads past results to improve future campaigns. Start empty, fill in after each campaign. -->
 
 ## How to Use This Log
 
-After every campaign, add an entry below using the template. Be honest about results — Claude Code uses this data to identify patterns and improve targeting, copy, and timing for future campaigns. A log full of vanity metrics helps no one.
+After every campaign, add an entry below using the template. Be honest about results - Claude Code uses this data to identify patterns and improve targeting, copy, and timing for future campaigns. A log full of vanity metrics helps no one.
 
 ## Campaign Log
 
@@ -16,14 +16,14 @@ After every campaign, add an entry below using the template. Be honest about res
 - **Volume:** [e.g., 150 prospects]
 - **Channel:** [e.g., Email / LinkedIn / Multi-channel]
 - **Sending platform:** [e.g., Instantly / Lemlist]
-- **Messaging angle:** [e.g., Signal-based — hiring SDRs / Problem-led — manual list building]
+- **Messaging angle:** [e.g., Signal-based - hiring SDRs / Problem-led - manual list building]
 - **Sequence length:** [e.g., 3 emails over 14 days]
 
 **Results:**
 
 | Metric | Count | Rate |
 |--------|-------|------|
-| Sent | [e.g., 150] | — |
+| Sent | [e.g., 150] | - |
 | Delivered | [e.g., 142] | [e.g., 94.7%] |
 | Opened | [e.g., 71] | [e.g., 50%] |
 | Replied | [e.g., 12] | [e.g., 8.5%] |
@@ -38,8 +38,8 @@ After every campaign, add an entry below using the template. Be honest about res
 - [e.g., Tuesday/Wednesday sends outperformed Monday]
 
 **What didn't work:**
-- [e.g., Tier 3 accounts had 0 positive replies — exclude from next campaign]
-- [e.g., "Book a demo" CTA killed reply rate — switch to soft ask]
+- [e.g., Tier 3 accounts had 0 positive replies - exclude from next campaign]
+- [e.g., "Book a demo" CTA killed reply rate - switch to soft ask]
 - [e.g., LinkedIn follow-up after email didn't add incremental replies]
 
 **Action items for next campaign:**
@@ -60,11 +60,11 @@ After every campaign, add an entry below using the template. Be honest about res
 - **ICP tier targeted:** Tier 1
 - **Volume:** 120 prospects
 - **Channel:** Email (3-step sequence) + LinkedIn connection request
-- **Messaging angle:** Signal-based — "Saw you're scaling your outbound team"
+- **Messaging angle:** Signal-based - "Saw you're scaling your outbound team"
 
 | Metric | Count | Rate |
 |--------|-------|------|
-| Sent | 120 | — |
+| Sent | 120 | - |
 | Delivered | 114 | 95% |
 | Opened | 62 | 54.4% |
 | Replied | 14 | 12.3% |
@@ -82,11 +82,11 @@ After every campaign, add an entry below using the template. Be honest about res
 - **ICP tier targeted:** Tier 1 + Tier 2
 - **Volume:** 80 prospects
 - **Channel:** Email only (3-step sequence)
-- **Messaging angle:** Problem-led — "Post-raise GTM scaling challenges"
+- **Messaging angle:** Problem-led - "Post-raise GTM scaling challenges"
 
 | Metric | Count | Rate |
 |--------|-------|------|
-| Sent | 80 | — |
+| Sent | 80 | - |
 | Delivered | 76 | 95% |
 | Opened | 35 | 46.1% |
 | Replied | 6 | 7.9% |
@@ -94,5 +94,5 @@ After every campaign, add an entry below using the template. Be honest about res
 | Meetings booked | 2 | 2.6% |
 
 **What worked:** FinTech-specific proof points resonated. Mentioning the funding amount showed we did research.
-**What didn't work:** Tier 2 accounts produced zero positive replies. Sequence was too generic — needs more vertical customization.
+**What didn't work:** Tier 2 accounts produced zero positive replies. Sequence was too generic - needs more vertical customization.
 **Next campaign:** Tier 1 only. Customize first line per company (not just per segment).

@@ -29,7 +29,7 @@ For each open deal, check:
 - **Stuck in stage:** Deal has been in the same stage for longer than [e.g., 2x the average for that stage].
 - **Single-threaded:** Only one contact engaged. Enterprise deals need 3+ contacts.
 - **No next step:** Next step field is empty or vague ("follow up").
-- **Upside-down deal:** Amount is below your average deal size for the stage — may not be worth the effort.
+- **Upside-down deal:** Amount is below your average deal size for the stage - may not be worth the effort.
 
 ### 2. Risk Classification
 
@@ -46,7 +46,7 @@ Classify each deal:
 For each Yellow and Red deal, recommend a specific next action:
 
 - Stale → "Send a value-add resource to re-engage [CONTACT_NAME]"
-- Single-threaded → "Identify and engage a second stakeholder — suggest [TITLE]"
+- Single-threaded → "Identify and engage a second stakeholder - suggest [TITLE]"
 - Slipping → "Propose a mutual action plan with revised timeline"
 - No next step → "Schedule a [SPECIFIC_MEETING_TYPE] for [SUGGESTED_DATE]"
 - Stuck → "Diagnose: is the champion still engaged? Check last interaction."
@@ -68,7 +68,7 @@ Generate a weekly summary:
 Markdown report saved to `./data/reports/pipeline_review_[DATE].md`:
 
 ```markdown
-# Pipeline Review — [DATE]
+# Pipeline Review - [DATE]
 
 ## Summary
 - Total pipeline: $X (N deals)
@@ -78,10 +78,10 @@ Markdown report saved to `./data/reports/pipeline_review_[DATE].md`:
 
 ## Risk Alerts
 ### Red (Immediate Action)
-- [DEAL_NAME] — [COMPANY] — $X — [RISK_REASON] — Action: [RECOMMENDATION]
+- [DEAL_NAME] - [COMPANY] - $X - [RISK_REASON] - Action: [RECOMMENDATION]
 
 ### Yellow (Monitor)
-- [DEAL_NAME] — [COMPANY] — $X — [RISK_REASON] — Action: [RECOMMENDATION]
+- [DEAL_NAME] - [COMPANY] - $X - [RISK_REASON] - Action: [RECOMMENDATION]
 
 ## Stage Distribution
 | Stage | Deals | Value | Avg Days |
@@ -89,7 +89,7 @@ Markdown report saved to `./data/reports/pipeline_review_[DATE].md`:
 
 ## Wins & Losses This Week
 - Won: [DEALS]
-- Lost: [DEALS] — Reasons: [LOSS_REASONS]
+- Lost: [DEALS] - Reasons: [LOSS_REASONS]
 
 ## Recommendations
 1. [TOP_PRIORITY_ACTION]
@@ -108,18 +108,18 @@ Scope: my_deals
 
 Output:
 ```
-Pipeline Review — 2026-03-15
+Pipeline Review - 2026-03-15
 
 Summary: $1.2M pipeline (18 deals), weighted $480K, 3.2:1 coverage
 
 Red Alerts:
-- Acme Corp — $85K — No activity in 23 days, single-threaded
+- Acme Corp - $85K - No activity in 23 days, single-threaded
   → Action: Re-engage via LinkedIn. Identify VP Engineering as second thread.
 
-- DataFlow — $120K — Close date was March 10, no next step defined
+- DataFlow - $120K - Close date was March 10, no next step defined
   → Action: Send mutual action plan with revised March 28 close date.
 
 Yellow:
-- CloudStack — $45K — In Demo stage for 18 days (avg is 10)
+- CloudStack - $45K - In Demo stage for 18 days (avg is 10)
   → Action: Propose a technical deep-dive to move to Proposal.
 ```

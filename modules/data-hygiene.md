@@ -1,6 +1,6 @@
 # Data Hygiene
 
-<!-- This module defines rules for cleaning and maintaining CRM and prospect data. Paste it into any template where data quality matters (spoiler: all of them). Dirty data kills outbound — duplicates waste send volume, stale contacts hurt deliverability, missing fields break personalization. -->
+<!-- This module defines rules for cleaning and maintaining CRM and prospect data. Paste it into any template where data quality matters (spoiler: all of them). Dirty data kills outbound - duplicates waste send volume, stale contacts hurt deliverability, missing fields break personalization. -->
 
 ## Hygiene Rules
 
@@ -81,12 +81,12 @@ Save hygiene report to: `./data/cleaned/[ORIGINAL_FILENAME]_hygiene_report.md`
 
 ### Example 1: Pre-Campaign CSV Clean
 
-**Input:** `raw_prospects_march.csv` — 500 rows from Apollo export
+**Input:** `raw_prospects_march.csv` - 500 rows from Apollo export
 
 **Hygiene report:**
 - Rows in: 500
 - Duplicates removed: 23 (matched on email)
-- Missing required fields: 18 (moved to needs_review — 12 missing titles, 6 missing emails)
+- Missing required fields: 18 (moved to needs_review - 12 missing titles, 6 missing emails)
 - Invalid emails removed: 7 (3 catch-all, 2 noreply@, 2 invalid format)
 - Exclusions matched: 14 (5 existing customers, 3 competitors, 6 DNC)
 - Titles standardized: 45 (e.g., "Vice President of Engineering" → "VP Engineering")

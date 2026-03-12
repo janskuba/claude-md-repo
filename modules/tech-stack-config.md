@@ -1,6 +1,6 @@
 # Tech Stack Config
 
-<!-- This module documents the tools in your GTM stack and how Claude Code connects to each one. Paste it into the Tech Stack section of any template. Claude Code is most powerful when it can read from and write to your actual tools — this config makes that possible. -->
+<!-- This module documents the tools in your GTM stack and how Claude Code connects to each one. Paste it into the Tech Stack section of any template. Claude Code is most powerful when it can read from and write to your actual tools - this config makes that possible. -->
 
 ## Stack Overview
 
@@ -18,7 +18,7 @@
 
 ## Tool Configurations
 
-### CRM — [YOUR_CRM_NAME]
+### CRM - [YOUR_CRM_NAME]
 
 - **API base URL:** `[YOUR_CRM_API_URL]`
 - **Authentication:** `[e.g., API key / OAuth 2.0]`
@@ -26,12 +26,12 @@
 - **Rate limits:** `[e.g., 100 requests/10 seconds]`
 - **Key objects:** `[e.g., Contacts, Companies, Deals, Activities]`
 - **Custom fields used:**
-  - `[e.g., lead_score — numeric, 0-100]`
-  - `[e.g., icp_tier — picklist: Tier 1, Tier 2, Tier 3]`
-  - `[e.g., last_signal_date — date]`
-- **MCP server:** `[e.g., @anthropic/hubspot-mcp — if applicable]`
+  - `[e.g., lead_score - numeric, 0-100]`
+  - `[e.g., icp_tier - picklist: Tier 1, Tier 2, Tier 3]`
+  - `[e.g., last_signal_date - date]`
+- **MCP server:** `[e.g., @anthropic/hubspot-mcp - if applicable]`
 
-### Enrichment — [YOUR_ENRICHMENT_TOOL]
+### Enrichment - [YOUR_ENRICHMENT_TOOL]
 
 - **API base URL:** `[YOUR_ENRICHMENT_API_URL]`
 - **Authentication:** `[e.g., API key in header]`
@@ -43,7 +43,7 @@
   - Contact enrichment: `[e.g., /v1/contacts/enrich]`
 - **Fields to pull:** `[e.g., email, title, company_size, industry, technologies, funding_round]`
 
-### Sending Platform — [YOUR_SENDING_TOOL]
+### Sending Platform - [YOUR_SENDING_TOOL]
 
 - **API base URL:** `[YOUR_SENDING_API_URL]`
 - **Authentication:** `[e.g., API key]`
@@ -58,14 +58,14 @@
   - Daily send limit per mailbox: `[e.g., 40]`
   - Warmup status: `[e.g., all mailboxes fully warmed]`
 
-### LinkedIn — [YOUR_LINKEDIN_TOOL]
+### LinkedIn - [YOUR_LINKEDIN_TOOL]
 
 - **Access method:** `[e.g., Sales Navigator manual, Phantombuster, LinkedIn API]`
 - **Daily limits:** `[e.g., 25 connection requests/day, 50 profile views/day]`
 - **Saved searches:** `[List your key saved searches for prospect monitoring]`
 - **Data export method:** `[e.g., CSV export from Sales Navigator, API pull]`
 
-### Analytics — [YOUR_ANALYTICS_TOOL]
+### Analytics - [YOUR_ANALYTICS_TOOL]
 
 - **API base URL:** `[YOUR_ANALYTICS_API_URL]`
 - **Authentication:** `[e.g., API key / OAuth]`
@@ -73,7 +73,7 @@
 - **Key events tracked:** `[e.g., page_view, trial_started, feature_activated, upgrade_clicked]`
 - **Dashboards to reference:** `[e.g., PLG funnel, campaign attribution, pipeline velocity]`
 
-### Research — [e.g., Perplexity]
+### Research - [e.g., Perplexity]
 
 - **API base URL:** `https://api.perplexity.ai`
 - **Authentication:** API key in header
@@ -81,28 +81,28 @@
 - **Rate limits:** [Check current plan limits]
 - **Use cases:**
   - Deep company research for ABM account briefs (earnings calls, strategic priorities, competitive landscape)
-  - Signal verification — confirm hiring, funding, and tech adoption signals found via other sources
-  - Prospect research — recent publications, conference talks, LinkedIn activity context
-  - Competitive intelligence — competitor positioning, pricing, recent moves
+  - Signal verification - confirm hiring, funding, and tech adoption signals found via other sources
+  - Prospect research - recent publications, conference talks, LinkedIn activity context
+  - Competitive intelligence - competitor positioning, pricing, recent moves
 - **Note:** Can also be used manually (no API needed) for ad-hoc research during account planning
 
-### Notifications — [e.g., Slack]
+### Notifications - [e.g., Slack]
 
 - **Webhook URL:** `[YOUR_SLACK_WEBHOOK_URL]`
-- **MCP server:** `[e.g., Slack MCP connector — available in Claude Code connectors]`
+- **MCP server:** `[e.g., Slack MCP connector - available in Claude Code connectors]`
 - **Channels to configure:**
-  - `#signals` — P0 signal alerts from signal monitor
-  - `#replies` — Interested and referral replies from reply classifier
-  - `#pipeline` — Weekly pipeline review summaries
-  - `#campaigns` — Campaign launch and completion notifications
+  - `#signals` - P0 signal alerts from signal monitor
+  - `#replies` - Interested and referral replies from reply classifier
+  - `#pipeline` - Weekly pipeline review summaries
+  - `#campaigns` - Campaign launch and completion notifications
 - **Alert rules:**
   - P0 signals → immediate Slack notification with suggested action
   - Positive replies → route to Slack within 1 minute
   - Pipeline red alerts → daily digest to #pipeline
 
-### Email — [e.g., Gmail / Google Workspace]
+### Email - [e.g., Gmail / Google Workspace]
 
-- **MCP server:** `[e.g., Gmail MCP connector — available in Claude Code connectors]`
+- **MCP server:** `[e.g., Gmail MCP connector - available in Claude Code connectors]`
 - **API:** Gmail API via Google Cloud Console
 - **API key env variable:** `GOOGLE_API_CREDENTIALS` (OAuth 2.0 credentials JSON path)
 - **Use cases:**
@@ -112,7 +112,7 @@
   - Monitor inbox for signal-triggered replies
 - **Note:** For high-volume sending, use a dedicated platform (Instantly, Lemlist). Gmail is best for 1:1 follow-ups, founder-led outreach, and reply management.
 
-### Reporting — [e.g., Google Sheets]
+### Reporting - [e.g., Google Sheets]
 
 - **MCP server:** `[e.g., Google Sheets MCP connector]`
 - **API:** Google Sheets API via Google Cloud Console

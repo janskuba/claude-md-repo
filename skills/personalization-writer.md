@@ -30,7 +30,7 @@ Generate personalized outreach messages for a list of prospects. Uses the copy f
    - CTA is a soft ask (never "book a demo")
    - No buzzwords, no exclamation marks, no emojis
    - Sounds like a human wrote it, not a template
-4. **Flag for review:** any prospects where personalization context is thin — don't force a bad personalization
+4. **Flag for review:** any prospects where personalization context is thin - don't force a bad personalization
 
 ## Output Format
 
@@ -40,7 +40,7 @@ CSV with columns:
 contact_name, contact_email, company_name, message_type, subject_line, message_body, personalization_source, confidence_score
 ```
 
-- `confidence_score`: `high` (strong signal + specific context), `medium` (decent context), `low` (thin personalization — review before sending)
+- `confidence_score`: `high` (strong signal + specific context), `medium` (decent context), `low` (thin personalization - review before sending)
 - Save to: `./data/outreach/[DATE]_[MESSAGE_TYPE]_personalized.csv`
 
 ## Example Usage
@@ -58,7 +58,7 @@ Output:
 contact_name: Alex Chen
 company_name: DataFlow Inc
 subject_line: Your 3 new data engineer roles
-message_body: Alex, saw DataFlow is hiring 3 data engineers — scaling
+message_body: Alex, saw DataFlow is hiring 3 data engineers - scaling
 the pipeline team. Most data teams at your stage hit observability
 issues around month 3. We helped Acme cut pipeline debugging by 70%.
 Worth a quick look?

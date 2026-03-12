@@ -28,7 +28,7 @@ This skill pairs well with `/loop` for scheduled, recurring monitoring (e.g., ru
    - **Content/social:** Prospect or company posted about relevant topics (check LinkedIn, company blog)
    - **Intent:** Website visits, G2 category research, content downloads (if intent data available)
    - **Competitive:** Negative competitor reviews, competitor contract renewals (if data available)
-   - **Web research verification:** For P0 signals, use Perplexity to verify and enrich — confirm the hiring post is still active, check if the funding has a press release with details, pull recent company news for context
+   - **Web research verification:** For P0 signals, use Perplexity to verify and enrich - confirm the hiring post is still active, check if the funding has a press release with details, pull recent company news for context
 3. **Prioritize signals:**
    - P0: Act within 48 hours (high-intent signals like hiring, funding, competitor churn)
    - P1: Act within 1 week (medium-intent like tech adoption, content activity)
@@ -72,15 +72,15 @@ Lookback: 7d
 Output:
 ```
 P0 Signals (act within 48h):
-- DataFlow Inc — HIRING — 3 Data Engineer roles posted 2 days ago — Source: LinkedIn Jobs
-  → Contact: Alex Chen (VP Engineering) — Angle: "scaling your data team"
+- DataFlow Inc - HIRING - 3 Data Engineer roles posted 2 days ago - Source: LinkedIn Jobs
+  → Contact: Alex Chen (VP Engineering) - Angle: "scaling your data team"
 
-- Acme Corp — FUNDING — $25M Series B announced yesterday — Source: Crunchbase
-  → Contact: Sarah Kim (CTO) — Angle: "post-raise infrastructure scaling"
+- Acme Corp - FUNDING - $25M Series B announced yesterday - Source: Crunchbase
+  → Contact: Sarah Kim (CTO) - Angle: "post-raise infrastructure scaling"
 
 P1 Signals (act within 1 week):
-- CloudStack — TECH_ADOPTION — Added Snowflake to tech stack — Source: BuiltWith
-  → Contact: Mike Johnson (Head of Data) — Angle: "Snowflake pipeline observability"
+- CloudStack - TECH_ADOPTION - Added Snowflake to tech stack - Source: BuiltWith
+  → Contact: Mike Johnson (Head of Data) - Angle: "Snowflake pipeline observability"
 
 Summary: 50 accounts scanned, 8 with new signals (3 P0, 3 P1, 2 P2)
 ```
