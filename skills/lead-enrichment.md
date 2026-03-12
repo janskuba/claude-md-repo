@@ -28,6 +28,7 @@ Take a raw list of companies or contacts and enrich each record with structured 
    - Tech stack (from BuiltWith, job postings, or similar)
    - Recent news (funding, hiring, product launches)
    - LinkedIn company page URL
+   - For Tier 1 prospects, use Perplexity for deeper research: recent company news, executive interviews, strategic priorities, competitive moves. This context powers stronger personalization.
 3. **For each contact** (if `full` enrichment):
    - Verified email address
    - Current title and seniority level

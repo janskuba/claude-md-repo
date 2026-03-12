@@ -67,6 +67,15 @@ Total replies processed: N
 
 Save to: `./data/replies/classified_[DATE].csv`
 
+### Reply Routing
+
+- **Interested + Referral replies:** Route to Slack `#replies` channel within 1 minute for fastest response. Include: sender name, company, reply snippet, suggested response, and CRM action.
+- **Objection replies:** Route to Slack `#replies` with suggested rebuttal from copy frameworks.
+- **Unsubscribe:** Auto-log in Google Sheets exclusion tracker (or CRM) — no Slack notification needed.
+- **Gmail integration:** If using Gmail MCP connector, Claude Code can draft response emails directly in Gmail based on the suggested responses above. Review before sending.
+
+Configure Slack webhook: set `SLACK_WEBHOOK_URL` in your `.env` file.
+
 ## Example Usage
 
 ```

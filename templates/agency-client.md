@@ -80,9 +80,12 @@ You operate within the client's brand voice and approval framework — nothing g
 | Tool | Purpose | Connection | Owner |
 |------|---------|------------|-------|
 | [e.g., Apollo] | Prospecting | API — key in `CLIENT_APOLLO_KEY` | Agency |
-| [e.g., Instantly] | Email sending | API — key in `CLIENT_INSTANTLY_KEY` | Agency |
-| [e.g., Client's HubSpot] | CRM | MCP Server / API | Client |
+| [e.g., Instantly / Lemlist] | Email sending | API — key in `CLIENT_INSTANTLY_KEY` | Agency |
+| [e.g., Client's HubSpot / Salesforce / Attio] | CRM | MCP Server / API | Client |
 | [e.g., Clay] | Enrichment | API — key in `CLAY_API_KEY` | Agency |
+| [e.g., Slack] | Client communication + reply alerts | Webhook / shared channel | Both |
+| [e.g., Gmail] | Reply management + approvals | MCP Server | Agency |
+| [e.g., Google Sheets] | Shared campaign reporting + lead tracker | MCP Server | Both |
 
 **Mailbox setup:**
 - Sending domains: [e.g., client-owned domains, number of mailboxes]

@@ -1,7 +1,9 @@
-# Environment
+# API keys and credentials — never commit these
 .env
 .env.local
 .env.*
+!.env.example
+credentials.json
 
 # OS
 .DS_Store

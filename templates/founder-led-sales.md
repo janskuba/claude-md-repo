@@ -68,10 +68,12 @@ You operate with a personal brand approach — outreach comes from the founder, 
 | Tool | Purpose | Connection |
 |------|---------|------------|
 | [e.g., Apollo / LinkedIn] | Prospecting | API / Manual |
-| [e.g., Gmail / Superhuman] | Email sending | Direct |
-| [e.g., Notion / Google Sheets] | CRM (lightweight) | Manual / API |
+| [e.g., Gmail / Superhuman] | Email sending + reply management | MCP Server / Direct |
+| [e.g., Attio / Google Sheets] | CRM (lightweight) | MCP Server / API |
 | [e.g., Calendly] | Scheduling | Link in signature |
 | [e.g., Clay] | Enrichment (if budget allows) | API |
+| [e.g., Perplexity] | Prospect research before outreach | Manual |
+| [e.g., Slack] | Personal alerts for hot replies | Webhook |
 
 **File paths:**
 - Prospect list: `./data/prospects.csv`

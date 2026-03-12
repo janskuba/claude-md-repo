@@ -76,11 +76,15 @@ You operate with a signal-driven approach — never send generic blasts. Every p
 
 | Tool | Purpose | Connection |
 |------|---------|------------|
-| [e.g., Apollo] | Prospect data + enrichment | MCP Server / API — key in `APOLLO_API_KEY` |
+| [e.g., Apollo] | Prospect data + enrichment | API — key in `APOLLO_API_KEY` |
 | [e.g., Clay] | Enrichment workflows | API — key in `CLAY_API_KEY` |
 | [e.g., Instantly] | Email sending | API — key in `INSTANTLY_API_KEY` |
-| [e.g., HubSpot] | CRM | MCP Server / API |
+| [e.g., HubSpot / Attio] | CRM | MCP Server / API |
 | [e.g., LinkedIn Sales Navigator] | Prospecting | Manual + CSV export |
+| [e.g., Perplexity] | Deep prospect/company research | API — key in `PERPLEXITY_API_KEY` / Manual |
+| [e.g., Slack] | Signal alerts + reply notifications | Webhook — `SLACK_WEBHOOK_URL` / MCP Server |
+| [e.g., Gmail] | Reply management + 1:1 follow-ups | MCP Server |
+| [e.g., Google Sheets] | Campaign tracking + reporting | MCP Server / API |
 
 **File paths:**
 - Prospect lists: `./data/prospects/`

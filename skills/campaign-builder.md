@@ -62,6 +62,8 @@ Build a complete micro-campaign end-to-end: define the segment, build the prospe
 3. Create the sequence in platform format with timing rules
 4. Generate a campaign summary: segment, volume, messaging angle, sequence outline, expected send dates
 5. Output all files to campaign folder
+6. **Notification:** Post campaign summary to Slack `#campaigns` channel and/or email to team via Gmail
+7. **Tracking sheet:** If using Google Sheets for reporting, append a new row to your campaign tracker with: campaign name, date, segment, volume, and status
 
 ## Output Format
 

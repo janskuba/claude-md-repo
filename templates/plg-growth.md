@@ -73,10 +73,12 @@ You operate with a product-signal-driven approach — outreach is triggered by w
 | Tool | Purpose | Connection |
 |------|---------|------------|
 | [e.g., Amplitude / Mixpanel] | Product analytics + PQL signals | API — key in `AMPLITUDE_API_KEY` |
-| [e.g., Salesforce / HubSpot] | CRM | MCP Server / API |
+| [e.g., Salesforce / HubSpot / Attio] | CRM | MCP Server / API |
 | [e.g., Clearbit / Apollo] | Enrichment | API |
 | [e.g., Customer.io / Intercom] | Product email + in-app messaging | API |
 | [e.g., Snowflake / BigQuery] | Data warehouse for usage data | API / MCP Server |
+| [e.g., Slack] | PQL alerts + expansion signal notifications | Webhook / MCP Server |
+| [e.g., Google Sheets] | PQL tracking + conversion reporting | MCP Server |
 
 **File paths:**
 - PQL lists: `./data/pqls/`

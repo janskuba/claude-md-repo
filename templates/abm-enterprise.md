@@ -77,7 +77,9 @@ You operate with a quality-over-quantity approach — every touchpoint is resear
 | [e.g., LinkedIn Sales Navigator] | Stakeholder research + social selling | Manual |
 | [e.g., Apollo / ZoomInfo] | Contact data enrichment | API |
 | [e.g., Outreach / SalesLoft] | Multi-channel sequences | API |
-| [e.g., Highspot / Seismic] | Content management + deal rooms | Manual |
+| [e.g., Perplexity] | Account research — earnings calls, strategy, competitive intel | API / Manual |
+| [e.g., Slack] | Account signal alerts + team coordination | Webhook / MCP Server |
+| [e.g., Google Sheets] | Account tracking + stakeholder mapping (lightweight) | MCP Server |
 
 **File paths:**
 - Target account list: `./data/target_accounts.csv`
@@ -105,7 +107,7 @@ _No campaigns logged yet. After each ABM play, log: target accounts, personas en
 For each target account, produce a research brief covering:
 
 1. **Company overview:** What they do, key metrics (revenue, headcount, growth rate), recent news
-2. **Strategic priorities:** Based on earnings calls, press releases, CEO interviews, annual reports
+2. **Strategic priorities:** Use Perplexity to research earnings calls, press releases, CEO interviews, annual reports, and analyst coverage. Summarize the top 3 strategic priorities relevant to your solution.
 3. **Technology landscape:** Current stack, known vendors, integration requirements
 4. **Competitive situation:** Current solution provider (if any), contract status, pain points with incumbent
 5. **Key stakeholders:** Map 5–8 people across the buying committee (name, title, LinkedIn, role in deal)

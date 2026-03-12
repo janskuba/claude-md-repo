@@ -42,6 +42,7 @@
 | Visited your website | [e.g., Multiple page views on pricing page] | Web analytics, Clearbit Reveal | Fast follow-up — they're actively evaluating |
 | Searched for your category | [e.g., G2 category page views] | Bombora, G2 Buyer Intent | Outreach with comparison/proof points |
 | Downloaded competitor content | [e.g., Competitor whitepaper download] | Intent data providers | Position differentiation angle |
+| Researched your category via AI | [e.g., Prospect used Perplexity or similar to research your product category] | Perplexity activity (if available), search intent data | Outreach referencing the problem they're researching |
 
 ### Competitive Displacement Signals (P2)
 

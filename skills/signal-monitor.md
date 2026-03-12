@@ -28,6 +28,7 @@ This skill pairs well with `/loop` for scheduled, recurring monitoring (e.g., ru
    - **Content/social:** Prospect or company posted about relevant topics (check LinkedIn, company blog)
    - **Intent:** Website visits, G2 category research, content downloads (if intent data available)
    - **Competitive:** Negative competitor reviews, competitor contract renewals (if data available)
+   - **Web research verification:** For P0 signals, use Perplexity to verify and enrich — confirm the hiring post is still active, check if the funding has a press release with details, pull recent company news for context
 3. **Prioritize signals:**
    - P0: Act within 48 hours (high-intent signals like hiring, funding, competitor churn)
    - P1: Act within 1 week (medium-intent like tech adoption, content activity)
@@ -49,6 +50,14 @@ Summary stats:
 - P0 / P1 / P2 signal breakdown
 
 Save to: `./data/signals/signal_scan_[DATE].csv`
+
+### Routing Alerts
+
+- **P0 signals:** Send immediately to Slack `#signals` channel with: company name, signal type, suggested contact, and recommended outreach angle
+- **P1 signals:** Include in weekly Slack digest to `#signals`
+- **Gmail notification:** For teams without Slack, send a summary email to `[YOUR_TEAM_EMAIL]` with the P0 alert list
+
+Configure Slack webhook: set `SLACK_WEBHOOK_URL` in your `.env` file, or use the Slack MCP connector in Claude Code.
 
 ## Example Usage
 

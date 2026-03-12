@@ -6,12 +6,15 @@
 
 | Category | Tool | Purpose | Connection Method |
 |----------|------|---------|-------------------|
-| CRM | [e.g., HubSpot / Salesforce] | Source of truth for deals and contacts | [API / MCP Server] |
-| Enrichment | [e.g., Apollo / Clay / Clearbit] | Lead and company data enrichment | [API] |
+| CRM | [e.g., HubSpot / Salesforce / Attio] | Source of truth for deals and contacts | [API / MCP Server] |
+| Enrichment | [e.g., Apollo / Clay / Clearbit / ZoomInfo] | Lead and company data enrichment | [API] |
 | Sending | [e.g., Instantly / Lemlist / Smartlead] | Email sequence delivery | [API] |
-| LinkedIn | [e.g., LinkedIn Sales Navigator] | Prospecting and social selling | [Manual / browser extension] |
-| Analytics | [e.g., HubSpot / Amplitude / Mixpanel] | Campaign and product analytics | [API / MCP Server] |
-| Data warehouse | [e.g., Snowflake / BigQuery] | Centralized data store | [API / MCP Server] |
+| LinkedIn | [e.g., LinkedIn Sales Navigator] | Prospecting and social selling | [Manual / CSV export] |
+| Research | [e.g., Perplexity] | Deep company research, signal verification, competitive intel | [API / Manual] |
+| Analytics | [e.g., HubSpot / Amplitude / Mixpanel / G2 Buyer Intent] | Campaign and product analytics | [API / MCP Server] |
+| Data warehouse | [e.g., Snowflake / BigQuery / Google Sheets] | Centralized data store and reporting | [API / MCP Server / Manual] |
+| Notifications | [e.g., Slack / Gmail] | Signal alerts, reply routing, pipeline updates, team notifications | [Webhook / MCP Server / API] |
+| Automation | [e.g., n8n / Make / Zapier] | Workflow orchestration between tools | [Webhook / API] |
 
 ## Tool Configurations
 
@@ -94,6 +97,58 @@ Store all API keys in a `.env` file (never commit this file):
 # Analytics
 [ANALYTICS_API_KEY]=[your_key_here]
 ```
+
+### Research — [e.g., Perplexity]
+
+- **API base URL:** `https://api.perplexity.ai`
+- **Authentication:** API key in header
+- **API key env variable:** `PERPLEXITY_API_KEY`
+- **Rate limits:** [Check current plan limits]
+- **Use cases:**
+  - Deep company research for ABM account briefs (earnings calls, strategic priorities, competitive landscape)
+  - Signal verification — confirm hiring, funding, and tech adoption signals found via other sources
+  - Prospect research — recent publications, conference talks, LinkedIn activity context
+  - Competitive intelligence — competitor positioning, pricing, recent moves
+- **Note:** Can also be used manually (no API needed) for ad-hoc research during account planning
+
+### Notifications — [e.g., Slack]
+
+- **Webhook URL:** `[YOUR_SLACK_WEBHOOK_URL]`
+- **MCP server:** `[e.g., Slack MCP connector — available in Claude Code connectors]`
+- **Channels to configure:**
+  - `#signals` — P0 signal alerts from signal monitor
+  - `#replies` — Interested and referral replies from reply classifier
+  - `#pipeline` — Weekly pipeline review summaries
+  - `#campaigns` — Campaign launch and completion notifications
+- **Alert rules:**
+  - P0 signals → immediate Slack notification with suggested action
+  - Positive replies → route to Slack within 1 minute
+  - Pipeline red alerts → daily digest to #pipeline
+
+### Email — [e.g., Gmail / Google Workspace]
+
+- **MCP server:** `[e.g., Gmail MCP connector — available in Claude Code connectors]`
+- **API:** Gmail API via Google Cloud Console
+- **API key env variable:** `GOOGLE_API_CREDENTIALS` (OAuth 2.0 credentials JSON path)
+- **Use cases:**
+  - Read and classify incoming reply emails (feeds into reply-triage skill)
+  - Draft follow-up responses based on reply classification
+  - Send campaign-related emails when not using a dedicated sending platform
+  - Monitor inbox for signal-triggered replies
+- **Note:** For high-volume sending, use a dedicated platform (Instantly, Lemlist). Gmail is best for 1:1 follow-ups, founder-led outreach, and reply management.
+
+### Reporting — [e.g., Google Sheets]
+
+- **MCP server:** `[e.g., Google Sheets MCP connector]`
+- **API:** Google Sheets API via Google Cloud Console
+- **API key env variable:** `GOOGLE_API_CREDENTIALS` (same OAuth credentials as Gmail)
+- **Use cases:**
+  - Campaign tracking dashboards (import results from sending platforms)
+  - Pipeline reporting for teams not using a full BI tool
+  - Prospect list management for lightweight setups (founder-led, early-stage)
+  - Shared team scorecards and weekly metrics
+  - Export enriched data from Claude Code workflows for team review
+- **Note:** For teams without a CRM, Google Sheets + Claude Code can serve as a lightweight pipeline tracker. Use structured column headers so Claude Code can read and write to them consistently.
 
 ---
 

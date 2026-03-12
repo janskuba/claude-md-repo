@@ -62,6 +62,20 @@ claude-md-playbook/
 3. Replace the `[PLACEHOLDER]` sections with your real data (ICP, tech stack, messaging, etc.)
 4. Open Claude Code in that folder — done.
 
+## Works With
+
+This playbook references and integrates with the tools GTM teams actually use:
+
+**CRM:** HubSpot, Salesforce, Attio
+**Enrichment:** Apollo, Clay, ZoomInfo, Clearbit
+**Sending:** Instantly, Lemlist, Smartlead, Outreach
+**Research:** Perplexity, LinkedIn Sales Navigator, Crunchbase, G2
+**Notifications:** Slack, Gmail
+**Reporting:** Google Sheets
+**Automation:** n8n, Make
+
+Most tools connect via API keys (configured in your `.env` file) or MCP servers (configured in Claude Code). See `modules/tech-stack-config.md` for setup details.
+
 ---
 
 Built by [Jan Rasmussen](https://linkedin.com/in/jan-rasmussen-mitjana-b041a6188) @ [ColdIQ](https://coldiq.com)
