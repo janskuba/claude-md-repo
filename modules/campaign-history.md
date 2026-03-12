@@ -55,7 +55,7 @@ After every campaign, add an entry below using the template. Be honest about res
 
 ### Example 1: Q1 SDR Hiring Signal Campaign
 
-- **Date launched:** 2024-02-15
+- **Date launched:** 2026-02-15
 - **Segment:** Series B+ SaaS, hiring 2+ SDRs, US
 - **ICP tier targeted:** Tier 1
 - **Volume:** 120 prospects
@@ -77,7 +77,7 @@ After every campaign, add an entry below using the template. Be honest about res
 
 ### Example 2: Q1 Funding Signal Campaign
 
-- **Date launched:** 2024-01-20
+- **Date launched:** 2026-01-20
 - **Segment:** Series A-B companies, raised in last 60 days, FinTech vertical
 - **ICP tier targeted:** Tier 1 + Tier 2
 - **Volume:** 80 prospects

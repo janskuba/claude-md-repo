@@ -74,7 +74,7 @@
 ### Example 1: Sales Engagement Platform
 
 **Competitors:** outreach.io, salesloft.com, apollo.io, lemlist.com
-**Customer file:** `./data/exclusions/active_customers_2024.csv`
+**Customer file:** `./data/exclusions/active_customers.csv`
 **DNC file:** `./data/exclusions/dnc.csv`
 **Geographic exclusions:** China, Russia (no entity)
 **Industry exclusions:** Government, education, non-profit

@@ -108,7 +108,7 @@ Scope: my_deals
 
 Output:
 ```
-Pipeline Review — 2024-03-15
+Pipeline Review — 2026-03-15
 
 Summary: $1.2M pipeline (18 deals), weighted $480K, 3.2:1 coverage
 

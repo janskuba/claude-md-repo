@@ -103,9 +103,9 @@ You operate quality-over-quantity — every touchpoint is backed by account rese
 
 ## Campaign History
 
-### Campaign: New CISO Appointment — Q1 2024
+### Campaign: New CISO Appointment — Q1 2026
 
-- **Date launched:** 2024-01-22
+- **Date launched:** 2026-01-22
 - **Accounts activated:** 8 (new CISO hired in last 90 days)
 - **Personas engaged:** CISO (email), VP Security Ops (email + LinkedIn), Security Architect (LinkedIn)
 - **Messaging angle:** "New leader, new mandate" — positioned around the 90-day evaluation window
@@ -128,9 +128,9 @@ You operate quality-over-quantity — every touchpoint is backed by account rese
 
 **Action items:** Always reference their previous company's security stack. Test a "100-day agenda" resource as a value-add for new CISOs.
 
-### Campaign: Cloud Migration Signal — Q1 2024
+### Campaign: Cloud Migration Signal — Q1 2026
 
-- **Date launched:** 2024-02-05
+- **Date launched:** 2026-02-05
 - **Accounts activated:** 12 (announced cloud migration or AWS/Azure partnership)
 - **Personas engaged:** CISO, VP Security Ops, Security Architect
 - **Messaging angle:** "Cloud migration visibility gap" — SIEM blind spots during migration

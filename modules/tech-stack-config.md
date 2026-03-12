@@ -73,31 +73,6 @@
 - **Key events tracked:** `[e.g., page_view, trial_started, feature_activated, upgrade_clicked]`
 - **Dashboards to reference:** `[e.g., PLG funnel, campaign attribution, pipeline velocity]`
 
-## File Paths & Local Data
-
-- **Prospect lists:** `[e.g., ./data/prospects/]`
-- **Campaign exports:** `[e.g., ./data/campaigns/]`
-- **Enrichment cache:** `[e.g., ./data/enriched/]`
-- **CRM exports:** `[e.g., ./data/crm/]`
-
-## Environment Variables
-
-Store all API keys in a `.env` file (never commit this file):
-
-```bash
-# CRM
-[CRM_API_KEY]=[your_key_here]
-
-# Enrichment
-[ENRICHMENT_API_KEY]=[your_key_here]
-
-# Sending
-[SENDING_API_KEY]=[your_key_here]
-
-# Analytics
-[ANALYTICS_API_KEY]=[your_key_here]
-```
-
 ### Research — [e.g., Perplexity]
 
 - **API base URL:** `https://api.perplexity.ai`
@@ -131,7 +106,7 @@ Store all API keys in a `.env` file (never commit this file):
 - **API:** Gmail API via Google Cloud Console
 - **API key env variable:** `GOOGLE_API_CREDENTIALS` (OAuth 2.0 credentials JSON path)
 - **Use cases:**
-  - Read and classify incoming reply emails (feeds into reply-triage skill)
+  - Read and classify incoming reply emails (feeds into reply-classifier skill)
   - Draft follow-up responses based on reply classification
   - Send campaign-related emails when not using a dedicated sending platform
   - Monitor inbox for signal-triggered replies
@@ -149,6 +124,17 @@ Store all API keys in a `.env` file (never commit this file):
   - Shared team scorecards and weekly metrics
   - Export enriched data from Claude Code workflows for team review
 - **Note:** For teams without a CRM, Google Sheets + Claude Code can serve as a lightweight pipeline tracker. Use structured column headers so Claude Code can read and write to them consistently.
+
+## File Paths & Local Data
+
+- **Prospect lists:** `[e.g., ./data/prospects/]`
+- **Campaign exports:** `[e.g., ./data/campaigns/]`
+- **Enrichment cache:** `[e.g., ./data/enriched/]`
+- **CRM exports:** `[e.g., ./data/crm/]`
+
+## Environment Variables
+
+Store all API keys in a `.env` file (never commit this file). See `.env.example` in the repo root for the full list.
 
 ---
 

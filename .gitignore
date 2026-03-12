@@ -24,5 +24,8 @@ node_modules/
 *.swp
 *.swo
 
+# Build artifacts
+*.zip
+
 # Context directory
 .context/

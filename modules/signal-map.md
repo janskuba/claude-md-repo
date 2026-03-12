@@ -25,7 +25,7 @@
 |--------|-----------------|-------------------|--------|
 | Adopted complementary tool | [e.g., Just started using HubSpot] | BuiltWith, G2 reviews, job postings mentioning tools | Position as natural next step in their stack |
 | Migrating platforms | [e.g., Moving from Salesforce to HubSpot] | Job postings, G2, LinkedIn posts | Outreach with migration support angle |
-| Removed competitor | [e.g., Dropped competitor product from tech stack] | BuiltWith changes, G2 | Immediate outreach — they're evaluating alternatives |
+| Removed competitor | [e.g., Dropped competitor product from tech stack] | BuiltWith changes, G2 | P0 — Immediate outreach, they're actively evaluating alternatives |
 
 ### Content & Social Signals (P1)
 

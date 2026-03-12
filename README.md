@@ -38,6 +38,7 @@ claude-md-playbook/
 ├── examples/           # Fully filled-in examples
 │   ├── example-outbound-saas.md
 │   └── example-abm-enterprise.md
+├── .env.example
 └── .gitignore
 ```
 
